@@ -1,0 +1,387 @@
+ul {
+    list-style-type: none;
+    font-family: monospace;
+    font-size: xx-large;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:black ;
+    border: white;
+}
+
+[class^="navbar"] {
+    text-align: center;
+  }
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color:white;
+    text-align: center;
+    padding: 20px 15px;
+    text-decoration: none;
+}
+li a:hover{ 
+    background-color: dimgray;
+}
+
+a:hover{
+     background-color: dimgray;
+}
+
+.homehero {
+    background-image: url(img/HEADER.PNG);
+    background-size: cover;
+    height: 98vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.homeheroP {
+    background-image: url(img/POLICY-HEADER.png);
+    background-size: cover;
+    height: 98vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.homeheroA {
+    background-image: url(img/ABOUT-HEADER.png);
+    background-size: cover;
+    height: 98vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.homeheroE {
+    background-image: url(img/EXPO-HEADER.png);
+    background-size: cover;
+    height: 98vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.homeheroE {
+    background-image: url(img/EXPO-HEADER.png);
+    background-size: cover;
+    height: 98vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.homeheroB {
+    background-image: url(img/BOOK-HEADER.png);
+    background-size: cover;
+    height: 98vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: white;
+    justify-content: space-around;
+    align-content: space-around;
+    height: 5vh;
+    margin-bottom: 140px;
+    margin-right: 0px;
+}
+
+main {
+    display: block;
+    margin: 0 auto;
+}
+
+.cards article img, .card img {
+    border-radius: 1rem 0 0 0;
+    border: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: space-around;
+}
+section {
+    display: block;
+}
+
+article {
+    display: block;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
+.row3cards {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+    margin-top: 2em;
+}
+
+.row {
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+    margin-top: 2em;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.cardarticle {
+    max-width: 25%;
+    border-radius: 1rem 0 1rem;
+    padding: 0.5rem;
+    border: solid 1px darkgrey;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: space-around;
+   
+}
+
+.cards article, .card {
+    box-shadow: 0 3px 5px rgb(0 0 0 / 33%);
+    border: solid 1px darkgrey;
+    background-color: rgb(43, 42, 42);
+    border-radius: 1rem 0 1rem;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: space-around;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 1rem 0 1rem;
+    padding: 0.5rem;
+    border: solid 1px darkgrey;
+}
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    margin-left: 8.5px;
+    font-weight: bold;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    margin-left: 10px;
+}
+
+body {
+    font-family: monospace;
+    color: white;
+    font-size: 16px;
+    background-color: rgb(32, 32, 32);
+    display: block;
+    margin: 8px;
+}
+
+.welimgs {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    margin-top: 2em;
+    align-content: flex-start;
+}
+
+.welimgs div{
+    width: 48%;
+}
+
+.cardwelimg {
+    width: 100%;
+    border-radius: 1rem 0 1rem;
+    padding: 0.5rem;
+    border: solid 1px darkgrey;
+    display: flex;
+    flex-direction: row;
+    align-content: space-around;
+    justify-content: space-around;
+   
+}
+
+.welimg1 {
+    font-family: monospace;
+    font-size: 65px;
+    height: 50vh;
+    width: 50vh;
+    color: white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    display: flex;
+    margin-left: 65px;
+}
+
+.welimg2 {
+    font-family: monospace;
+    font-size: 65px;
+    height: 50vh;
+    width: 50vh;
+    color: white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+.welimg3 {
+    font-family: monospace;
+    font-size: 65px;
+    color: white;
+    height: 60vh;
+    width: 60vw;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+a {
+    color:white;
+    text-decoration: none;
+    border: solid 1px darkgrey;
+}
+
+a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+  }
+
+.fontexp {
+    font-family: monospace;
+    font-size: 42px;
+}
+.fontexp2 {
+    font-family: monospace;
+    font-size: 42px;
+    margin-right: 486px;
+}
+.visexp {
+    font-family: monospace;
+    font-size: 42px;
+    margin-right: 525px;
+}
+
+.aboutarticle1 {
+    display: flex;
+    flex-direction: row;
+    font-size: xx-large;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.staffimg {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+footer {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        background-image: url(img/pexels-seatizenco-557782.jpg);
+        font-size: xx-large;
+        font-family: monospace;
+        border: solid 1px darkgrey;
+        max-width: 100%;
+        align-content: center;
+}
+
+form { 
+    padding: 30px 0;
+    display: flex;
+    box-shadow: 0 3px 5px rgb(0 0 0 / 33%);
+    border: solid 1px darkgrey;
+    background-color: rgb(43, 42, 42);
+    border-radius: 1rem 0 1rem;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 25vh;
+    max-width: 1280px;
+    align-content: space-around;
+    margin: 0 auto;
+}
+
+.form {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-self: 0 auto;
+}
+
+.Policy {
+    box-shadow: 0 3px 5px rgb(0 0 0 / 33%);
+    border: solid 1px darkgrey;
+    background-color: rgb(43, 42, 42);
+    border-radius: 1rem 0 1rem;
+}
+
+.Policytxt {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+button {
+    box-shadow: 0 3px 5px rgb(0 0 0 / 33%);
+    border: solid 1px darkgrey;
+    background-color: rgb(43, 42, 42);
+    border-radius: 1rem 0 1rem;
+    color: white;
+    font-family: monospace;
+}
+
+button:hover {
+     background-color: dimgray;
+}
+
+.TOS {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-self: 0 auto;
+}
